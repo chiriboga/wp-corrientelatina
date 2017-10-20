@@ -17,23 +17,6 @@ get_header(); ?>
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="hidden-xs">
-            <?php
-            $related = ci_get_related_posts( get_the_ID(), 1 );
-            if ( $related->have_posts() ):
-                ?>
-                <div class="well well-sm">
-                    <p><em><strong>You</strong> may also like</em></p>
-                    <?php while ( $related->have_posts() ): $related->the_post(); ?>
-                        <?php echo '<a class="" style="margin-bottom:5px;" href="'.get_permalink().'" itemprop="url" title="'.get_the_title().'">'.get_the_post_thumbnail( $post_id,array( 1000, 500), array( 'class' => 'img-responsive lazy','alt' => get_the_title() ) ).'</a>'; ?>
-                        <?php the_title( '<p style="margin-bottom:0;"><a style="text-transform:capitalize;" href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></p>' ); ?>
-                    <?php endwhile; ?>
-                </div>
-                <?php
-            endif;
-            wp_reset_postdata();
-            ?>
-            </div>
             <div class="well well-sm sidebar">
                 <h2 class="widget-title" style="margin-bottom:5px;">Categories</h2>
                 <section class="visible-sm visible-xs widget widget_categories">
