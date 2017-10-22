@@ -60,7 +60,7 @@
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 			<!-- <h1 style="font-size: 4em;text-transform: uppercase;">Corriente <span style="font-weight:bold;color: #0088cc;">Latina</span></h1> -->
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" style="display: inline-block;"><img src="https://corrientelatina.com/wp-content/uploads/2015/04/corrientelatina-brand-circle.png" alt="corrientelatina.com" class="img-responsive logo" style="max-height:100px;" /></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" style="display: inline-block;"><img src="https://corrientelatina.com/wp-content/uploads/2017/10/corrientelatina-brand-circle.png" alt="corrientelatina.com" class="img-responsive logo" style="max-height:100px;" /></a>
 		</div>
 	</div>
 </div>

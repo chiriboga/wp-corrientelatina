@@ -21,7 +21,7 @@
             $author_url = get_the_author_posts_link();
         ?>
 		<div class="entry-meta">
-			<?php echo '<small style="font-size:11px;font-style:italic" class="clearfix" itemprop="author">by: '.$avatar.' <span itemprop="name">'.$author_url.'</span></small>'; ?>
+			<?php echo '<small style="font-size:11px;font-style:italic" class="clearfix" itemprop="author"><strong>by:</strong> '.$avatar.' <span itemprop="name">'.$author_url.'</span> | <strong>on:</strong> '.the_date('F j, Y, g:i a','','',false).'</small>'; ?>
 		</div><!-- .entry-meta -->
 		<div class="clearfix clear mb5"></div>
 		<?php
