@@ -96,5 +96,13 @@ fbq('track', "PageView");</script>
 src="//www.facebook.com/tr?id=564532503649864&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<script type="text/javascript">
+  var vglnk = { key: '3e34a11e3ae16dced89e831ad555ca02' };
+  (function(d, t) {
+    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    s.src = '//cdn.viglink.com/api/vglnk.js';
+    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script>
 </body>
 </html>
